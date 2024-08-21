@@ -1,0 +1,268 @@
+.lastslide{
+    height:99%;
+    width:100%;
+    /* background-color: aliceblue; */
+    position: relative;
+}
+.s1{
+    height:79%;
+    width:50%;
+    background-color: aliceblue;
+    position: absolute;
+    top:10%;
+    left:25%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.childs{
+    height:55%;
+    width:100%;
+    /* border:1px solid black; */
+}
+img{
+    height:50%;
+    width:85%;
+    position: absolute;
+    left:5%;
+}
+#dw{
+    background-color: #F7B7B7;
+    width:110%;
+    height:60%;
+    border-radius: 20px;;
+    position: absolute;
+    left:-5%;
+    top:50%;
+}
+.text{
+    font-size: 32px;
+    font-family: lucida sans;
+    position: absolute;
+    left:27%;
+    top:10%;
+}
+.text2{
+    font-size: 33px;
+    font-family: lucida sans;
+    font-weight: bolder;
+    position: absolute;
+    left:32%;
+    top:23%;
+}
+.text3{
+    font-size: 13px;
+    font-family: lucida sans;
+    line-height: 20px;
+    text-align: center;
+    /* font-weight: bolder; */
+    position: absolute;
+    left:25%;
+    top:40%;
+}
+.text4{
+    height:10%;
+    width:50%;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    top:60%;
+    left:10%;
+    text-align: left;
+    align-content: center;
+    color: grey;
+}
+.text5{
+    height:10%;
+    width:15%;
+    color: white;
+    /* font-size: 22px; */
+    border-radius: 100px;
+    background-color: blue;
+    position: absolute;
+    top:60%;
+    left:65%;
+    text-align: center;
+    align-content: center;
+}
+.footer{
+    background-color: rgb(45, 45, 181);
+    height:30%;
+    width:100%;
+    position: relative;
+}
+.fch1{
+    position: absolute;
+    top:10%;
+    left:10%;
+    height:80%;
+    width:35%;
+    line-height: 30px;
+    color:white;
+    text-align: left;
+   
+}
+.fch2{
+    position: absolute;
+    left:45%;
+    top:10%;
+    height:80%;
+    width:30%;
+    color:white;
+    text-align: left;
+    line-height: 30px;
+ 
+}
+.fch3{
+    position: absolute;
+    left:70%;
+    top:10%;
+    height:80%;
+    width:30%;
+    color:white;
+    text-align: left;
+    line-height: 30px;
+   
+}
+.line{
+    height:2px;
+    width:90%;
+    background-color: white;
+    position: absolute;
+    left:5%;
+    bottom:30%;
+}
+.facebook{
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    bottom:16%;
+    right:22%;
+}
+.twitter{
+    height:25px;
+    width: 25px;
+    border-radius: 210px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    background-color: skyblue;
+    position: absolute;
+    bottom:15%;
+    right:20%;
+}
+.insta{
+    height: fit-content;
+    width: fit-content;
+    color:white;
+    font-size: 22px;
+    background-color: purple;
+    position: absolute;
+    bottom:16%;
+    right:18%;
+}
+.printrest{
+    height: fit-content;
+    width: fit-content;
+    color:red;
+    font-size: 22px;
+    position: absolute;
+    bottom:16%;
+    right:16%;
+}
+@media screen and (max-width:1100px){
+    .fch1{
+        width:25%;
+    }
+    .text3{
+        left:10%;
+        font-size: 11px;
+    }
+    .insta{
+        font-size: 12px;
+        right:18%;
+    }
+    .printrest{
+        font-size: 12px;
+        right:16%;
+    }
+    .facebook{
+        font-size: 12px;
+        right:24%;
+    }
+    .twitter{
+        font-size: 12px;
+        height:15px;
+        width:15px;
+        right:22%;
+    }
+    .text4{
+        font-size: 12px;
+        left:2%;
+        width:60%;
+        height:8%;
+        top:65%;
+    }
+    .text5{
+        font-size: 12px;
+        left:65%;
+        width:25%;
+        height:8%;
+        top:65%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .fch1{
+        font-size:12px;
+        left:3%;
+    }
+    .fch2{
+        font-size:12px;
+    }
+    .fch3{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:1200px){
+    .fch1{
+        left:5%;
+    }
+}
+@media screen and (max-width:1040px){
+    .text{
+        font-size: 26px;
+        left:15%;
+    }
+}
+@media screen and (max-width:857px){
+    .text{
+        font-size: 20px;
+        left:-10%;
+    }
+    .text2{
+        font-size: 20px;
+        justify-content: left;
+    }
+}
+@media screen and (max-width:407px){
+    .text{
+        left:0%;
+    }
+}
+@media screen and (max-width:1240px){
+    .text{
+        left:22%;
+    }
+    .text2{
+        left:27%;
+    }
+}
+
+
+
+
+
